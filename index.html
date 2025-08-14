@@ -1,77 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Menú Responsive</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/fontawesome.min.css" integrity="sha512-J2Gce+WmOttffHOrVKLTlzxIalPXUMDbSfn5ADqp8Vj9EngnjNHr+jjiL3ZB8muEzo+K51gU10X+0eGqGNL7QA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 <body class="bg-[#f5ecef] text-gray-700">
-    
-<header class="bg-[#ffe0eb]">
-  <nav class="flex items-center justify-between px-[5%] h-[100px] bg-[#f5ecef] relative">
-    
-    <!-- Logo -->
-    <div class="text-[20px] text-[#5e5e5e] font-bold uppercase">
-      <h1>Thomas Cano</h1>
-    </div>
 
-    <!-- Checkbox oculto -->
-    <input type="checkbox" id="toggle">
+  <header class="bg-[#ffe0eb]">
+    <nav class="flex items-center justify-between px-[5%] h-[100px] bg-[#f5ecef] relative">
 
-    <!-- Lista -->
-    <ul class="flex gap-6 md:flex md:static">
-      <li><a href="#" class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Inicio</a></li>
-      <li><a href="#prueba" class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Sobre mí</a></li>
-      <li><a href="#" class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Proyectos</a></li>
-      <li><a href="#prueba2 " class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Experiencia</a></li>
-      <li><a href="#" class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Contacto</a></li>
-    </ul>
+      <!-- Logo -->
+      <div class="text-[20px] text-[#5e5e5e] font-bold uppercase">
+        <h1>Thomas Cano</h1>
+      </div>
 
-    <!-- Botón hamburguesa -->
-    <label for="toggle" class="md:hidden cursor-pointer flex flex-col gap-1">
-      <span class="w-[30px] h-[5px] bg-[#62162f] rounded"></span>
-      <span class="w-[30px] h-[5px] bg-[#62162f] rounded"></span>
-      <span class="w-[30px] h-[5px] bg-[#62162f] rounded"></span>
-    </label>
-  </nav>
-</header>
+      <!-- Checkbox oculto -->
+      <input type="checkbox" id="toggle">
 
-<main >
-  <section class="bg-[#f5ecef] h-[60vh] flex flex-col mt-30 items-center">
-    <div class="flex flex-row justify-center  items-center">
-      
+      <!-- Lista -->
+      <ul class="flex gap-6 md:flex md:static">
+        <li><a href="#"
+            class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Inicio</a>
+        </li>
+        <li><a href="#sobre-mi"
+            class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Sobre
+            mí</a></li>
+        <li><a href="#Proyectos"
+            class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Proyectos</a>
+        </li>
+        <li><a href="#prueba2 "
+            class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Experiencia</a>
+        </li>
+        <li><a href="#"
+            class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Contacto</a>
+        </li>
+      </ul>
+
+      <!-- Botón hamburguesa -->
+      <label for="toggle" class="md:hidden cursor-pointer flex flex-col gap-1">
+        <span class="w-[30px] h-[5px] bg-[#62162f] rounded"></span>
+        <span class="w-[30px] h-[5px] bg-[#62162f] rounded"></span>
+        <span class="w-[30px] h-[5px] bg-[#62162f] rounded"></span>
+      </label>
+    </nav>
+  </header>
+
+  <main>
+    <section class="bg-[#f5ecef] h-[60vh] flex flex-col mt-30 items-center">
+      <div class="flex flex-row justify-center  items-center ">
+
         <div class="border rounded-full border-2 flex justify-center items-center w-64 h-64 overflow-hidden">
           <img class="w-full h-full  object-cover" src="assets/yo.jpg" alt="">
         </div>
         <!-- Texto -->
-      <div class="text-left flex flex-col items-start md:w-3/4 ml-[40px]">
-        <h1 class="text-left text-4xl text-gray-600 font-bold">Hola, soy Thomi</h1>
-        <p class="mt-4 text-gray-600 w-1/2">
-          Actualmente estoy estudiando ingeniería en sistemas de información en la Universidad Tecnológica Nacional de Córdoba
-        </p>
+        <div class="text-left flex flex-col items-start md:w-3/4 ml-[40px]">
+          <h1 class="text-left text-4xl text-gray-600 font-bold">Hola, soy Thomi</h1>
+          <p class="mt-4 text-gray-600 w-1/2">
+            Actualmente estoy estudiando ingeniería en sistemas de información en la Universidad Tecnológica Nacional de
+            Córdoba
+          </p>
+        </div>
+
+
       </div>
-      
-        
-    </div>
-  </section>
-  <section id="prueba" class="h-[100vh] bg-red-400 w-full  transition-all">
+    </section>
+    <section id="sobre-mi"
+      class="bg-[#f5ecef] py-20 flex flex-col md:flex-row items-center max-w-6xl mx-auto px-6 gap-10 pt-2">
+      <div class="flex flex-col justify-center md:w-2/3">
+        <h2 class="text-4xl font-bold text-[#62162f] mb-4">Sobre mi</h2>
+        <p class="mb-4 text-gray-600 pb-5">Mi nombre es Thomas Agustin Cano ,tengo 20 años, soy de Cordoba, Argentina me
+          recibi en tecnico electronico,Actualmente me encuentro estudiando en la carrera de ingeniera en sistemas de
+          informacion.</p>
 
-            <h1>Hola as</h1>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
+        <h3 class="text-2xl font-semibold text-gray-700 mb-2">Mis habilidades:</h3>
+        <ul class="flex flex-wrap gap-4 text-gray-600">
+          <li><i class="fa-brands fa-html5 text-orange-500 text-2xl"></i> HTML5</li>
+          <li><i class="fa-brands fa-css3-alt text-blue-500 text-2xl"></i> CSS3</li>
+          <li><i class="fa-brands fa-js text-yellow-400 text-2xl"></i> JavaScript</li>
+          <li><i class="fa-brands fa-github text-gray-800 text-2xl"></i> GitHub</li>
+          <li><i class="fa-solid fa-microchip text-red-700 text-2xl"></i>MikroC</li>
+          <li><i class="fa-brands fa-python text-blue-500 fa-bounce text-2xl "></i>Python</li>
+        </ul>
+      </div>
 
-  </section>
-  <section id="prueba2" class="h-[100vh] bg-blue-400 w-full  transition-all">
+    </section>
+    <section id="Proyectos"
+      class="bg-[#f5ecef] py-20 flex flex-col md:flex-row items-center max-w-6xl mx-auto px-6 gap-10 pt-2 transition-all">
+      <div class="">
+        <h2 class="text-4xl font-bold text-[#62162f] mb-4">Proyectos</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Proyecto 1 -->
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden relative">
+            <img src="web.png" alt="TaskFlow" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">TaskFlow</h3>
+              <p class="text-gray-600 text-sm">Task management system with drag-and-drop...</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden relative">
+            <img src="ecocart.png" alt="EcoCart" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">EcoCart</h3>
+              <p class="text-gray-600 text-sm">E-commerce platform promoting eco-friendly products...</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden relative">
+            <img src="ecocart.png" alt="EcoCart" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">EcoCart</h3>
+              <p class="text-gray-600 text-sm">E-commerce platform promoting eco-friendly products...</p>
+            </div>
+          </div>
 
-            <h1>Hola as</h1>
 
-  </section>
-</main>
-    <script src="main.js"></script>
+        </div>
+      </div>
+
+    </section>
+    </section>
+    <section id="sobre-mi"
+      class="bg-[#f5ecef] py-20 flex flex-col md:flex-row items-center max-w-6xl mx-auto px-6 gap-10 pt-2">
+      <div class="flex flex-col justify-center md:w-2/3">
+        <h2 class="text-4xl font-bold text-[#62162f] mb-4">Sobre mi</h2>
+        <p class="mb-4 text-gray-600 pb-5">Mi nombre es Thomas Agustin Cano ,tengo 20 años, soy de Cordoba, Argentina me
+          recibi en tecnico electronico,Actualmente me encuentro estudiando en la carrera de ingeniera en sistemas de
+          informacion.</p>
+
+        <h3 class="text-2xl font-semibold text-gray-700 mb-2">Mis habilidades:</h3>
+        <ul class="flex flex-wrap gap-4 text-gray-600">
+          <li><i class="fa-brands fa-html5 text-orange-500 text-2xl"></i> HTML5</li>
+          <li><i class="fa-brands fa-css3-alt text-blue-500 text-2xl"></i> CSS3</li>
+          <li><i class="fa-brands fa-js text-yellow-400 text-2xl"></i> JavaScript</li>
+          <li><i class="fa-brands fa-github text-gray-800 text-2xl"></i> GitHub</li>
+          <li><i class="fa-solid fa-microchip text-red-700 text-2xl"></i>MikroC</li>
+          <li><i class="fa-brands fa-python text-blue-500 fa-bounce text-2xl "></i>Python</li>
+        </ul>
+      </div>
+    </section>
+    <section id="sobre-mi"
+      class="bg-[#f5ecef] py-20 flex flex-col md:flex-row items-center max-w-6xl mx-auto px-6 gap-10 pt-2">
+      <div class="flex flex-col justify-center md:w-2/3">
+        <h2 class="text-4xl font-bold text-[#62162f] mb-4">Sobre mi</h2>
+        <p class="mb-4 text-gray-600 pb-5">Mi nombre es Thomas Agustin Cano ,tengo 20 años, soy de Cordoba, Argentina me
+          recibi en tecnico electronico,Actualmente me encuentro estudiando en la carrera de ingeniera en sistemas de
+          informacion.</p>
+
+        <h3 class="text-2xl font-semibold text-gray-700 mb-2">Mis habilidades:</h3>
+        <ul class="flex flex-wrap gap-4 text-gray-600">
+          <li><i class="fa-brands fa-html5 text-orange-500 text-2xl"></i> HTML5</li>
+          <li><i class="fa-brands fa-css3-alt text-blue-500 text-2xl"></i> CSS3</li>
+          <li><i class="fa-brands fa-js text-yellow-400 text-2xl"></i> JavaScript</li>
+          <li><i class="fa-brands fa-github text-gray-800 text-2xl"></i> GitHub</li>
+          <li><i class="fa-solid fa-microchip text-red-700 text-2xl"></i>MikroC</li>
+          <li><i class="fa-brands fa-python text-blue-500 fa-bounce text-2xl "></i>Python</li>
+        </ul>
+      </div>
+  </main>
+  <script src="main.js"></script>
 </body>
+
 </html>

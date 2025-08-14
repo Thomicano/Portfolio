@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menú Responsive</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/fontawesome.min.css" integrity="sha512-J2Gce+WmOttffHOrVKLTlzxIalPXUMDbSfn5ADqp8Vj9EngnjNHr+jjiL3ZB8muEzo+K51gU10X+0eGqGNL7QA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[#f5ecef] text-gray-700">
+    
+<header class="bg-[#ffe0eb]">
+  <nav class="flex items-center justify-between px-[5%] h-[100px] bg-[#f5ecef] relative">
+    
+    <!-- Logo -->
+    <div class="text-[20px] text-[#5e5e5e] font-bold uppercase">
+      <h1>Thomas Cano</h1>
+    </div>
+
+    <!-- Checkbox oculto -->
+    <input type="checkbox" id="toggle">
+
+    <!-- Lista -->
+    <ul class="flex gap-6 md:flex md:static">
+      <li><a href="#" class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Inicio</a></li>
+      <li><a href="#prueba" class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Sobre mí</a></li>
+      <li><a href="#" class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Proyectos</a></li>
+      <li><a href="#prueba2 " class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Experiencia</a></li>
+      <li><a href="#" class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Contacto</a></li>
+    </ul>
+
+    <!-- Botón hamburguesa -->
+    <label for="toggle" class="md:hidden cursor-pointer flex flex-col gap-1">
+      <span class="w-[30px] h-[5px] bg-[#62162f] rounded"></span>
+      <span class="w-[30px] h-[5px] bg-[#62162f] rounded"></span>
+      <span class="w-[30px] h-[5px] bg-[#62162f] rounded"></span>
+    </label>
+  </nav>
+</header>
+
+<main >
+  <section class="bg-[#f5ecef] h-[60vh] flex flex-col mt-30 items-center">
+    <div class="flex flex-row justify-center  items-center">
+      
+        <div class="border rounded-full border-2 flex justify-center items-center w-64 h-64 overflow-hidden">
+          <img class="w-full h-full  object-cover" src="assets/yo.jpg" alt="">
+        </div>
+        <!-- Texto -->
+      <div class="text-left flex flex-col items-start md:w-3/4 ml-[40px]">
+        <h1 class="text-left text-4xl text-gray-600 font-bold">Hola, soy Thomi</h1>
+        <p class="mt-4 text-gray-600 w-1/2">
+          Actualmente estoy estudiando ingeniería en sistemas de información en la Universidad Tecnológica Nacional de Córdoba
+        </p>
+      </div>
+      
+        
+    </div>
+  </section>
+  <section id="prueba" class="h-[100vh] bg-red-400 w-full  transition-all">
+
+            <h1>Hola as</h1>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+
+  </section>
+  <section id="prueba2" class="h-[100vh] bg-blue-400 w-full  transition-all">
+
+            <h1>Hola as</h1>
+
+  </section>
+</main>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#toggle {
+    position: absolute;
+    top: -100px;
+}
+
+@media (max-width: 768px) {
+    nav .list {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 100px;
+        bottom: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #toggle:checked~.list {
+        bottom: 0;
+    }
+    nav .list a{
+        font-size: 20px;
+    }
+    nav .icon-bars {
+        display: block;
+    }
+}

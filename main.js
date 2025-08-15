@@ -1,15 +1,22 @@
+const toggle = document.getElementById('toggle');
+
+toggle.addEventListener('change', () => {
+  document.body.style.overflow = toggle.checked ? 'hidden' : '';
+});
+
 document.querySelectorAll('.menu').forEach(link => {
-      link.addEventListener('click', function(e) {
-        e.preventDefault(); // Evita el salto instantáneo
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
 
-        // Obtenemos el elemento de destino usando el href
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
+    const targetId = this.getAttribute('href');
+    const targetElement = document.querySelector(targetId);
 
-        // Scroll suave hasta la sección
-        targetElement.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
-      });
+    targetElement.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
     });
+
+    toggle.checked = false;
+    document.body.style.overflow = '';
+  });
+});

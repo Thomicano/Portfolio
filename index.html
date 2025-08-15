@@ -14,37 +14,37 @@
 
 <body class="bg-[#f5ecef] text-gray-700">
 
-  <header class="bg-[#ffe0eb] ">
+  <header class="bg-[#ffe0eb] fixed top-0 w-full z-50">
     <nav class="flex items-center justify-between px-[5%] h-[100px] bg-[#f5ecef] relative">
 
-      <!-- Logo -->
+
       <div class="text-[20px] text-[#5e5e5e] font-bold uppercase">
         <h1>Thomas Cano</h1>
       </div>
 
-      <!-- Checkbox oculto -->
+
       <input type="checkbox" id="toggle">
 
-      <!-- Lista -->
-      <ul class="flex gap-6 md:flex md:static">
-        <li><a href="#"
+
+      <ul class="list flex gap-6 md:flex md:static ">
+        <li><a href="#Inicio"
             class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Inicio</a>
         </li>
         <li><a href="#sobre-mi"
             class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Sobre
             mí</a></li>
+        <li><a href="#Experiencia"
+            class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Experiencia</a></li>
         <li><a href="#Proyectos"
             class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Proyectos</a>
         </li>
-        <li><a href="#Experiencia "
-            class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Experiencia</a>
-        </li>
+
         <li><a href="#Contacto"
             class="menu block uppercase p-[15px] text-[16px] font-bold text-[#585858] inline-block px-3 py-2 border-b-[4px] border-[#f5ecef] transition duration-200 transform hover:border-[#62162f] hover:scale-110 hover:text-[#62162f]">Contacto</a>
         </li>
       </ul>
 
-      <!-- Botón hamburguesa -->
+
       <label for="toggle" class="md:hidden cursor-pointer flex flex-col gap-1">
         <span class="w-[30px] h-[5px] bg-[#62162f] rounded"></span>
         <span class="w-[30px] h-[5px] bg-[#62162f] rounded"></span>
@@ -54,15 +54,15 @@
   </header>
 
   <main>
-    <section class="bg-[#f5ecef] h-[60vh] flex flex-col mt-30 items-center">
+    <section id="Inicio" class="bg-[#f5ecef] h-[60vh] flex flex-col mt-30 items-center">
       <div class="flex flex-row justify-center  items-center ">
 
         <div class="border rounded-full border-2 flex justify-center items-center w-64 h-64 overflow-hidden">
           <img class="w-full h-full  object-cover" src="assets/yo.jpg" alt="">
         </div>
-        <!-- Texto -->
+
         <div class="text-left flex flex-col items-start md:w-3/4 ml-[40px]">
-          <h1 class="text-left text-4xl text-gray-600 font-bold">Hola, soy Thomi</h1>
+          <h1 class="text-left text-4xl text-gray-600 font-bold">Hola, soy Thomas</h1>
           <p class="mt-4 text-gray-600 w-1/2">
             Actualmente estoy estudiando ingeniería en sistemas de información en la Universidad Tecnológica Nacional de
             Córdoba
@@ -79,17 +79,17 @@
         <p class="mb-4 text-gray-600 pb-5">Mi nombre es Thomas Agustin Cano ,tengo 20 años, soy de Cordoba, Argentina me
           recibi en tecnico electronico,Actualmente me encuentro estudiando en la carrera de ingeniera en sistemas de
           informacion.</p>
-          <div class="border-2 border-gray-300 border-t-[#f5ecef] bg-[#EDEAF1]  shadow-2xl  py-2 rounded-lg">
-            <h3 class="text-2xl font-semibold text-gray-700 mb-2 flex  justify-center pb-5">Mis habilidades</h3>
-            <ul class="flex flex-wrap  gap-8 text-gray-600 justify-center">
-              <li><i class="fa-brands fa-html5 text-orange-500 text-3xl"></i> </li>
-              <li><i class="fa-brands fa-css3-alt text-blue-500 text-3xl"></i> </li>
-              <li><i class="fa-brands fa-js text-yellow-400 text-3xl"></i></li>
-              <li><i class="fa-brands fa-github text-gray-800 text-3xl"></i> </li>  
-              <li><i class="fa-solid fa-microchip text-red-700 text-3xl"></i></li>
-              <li><i class="fa-brands fa-python text-blue-500 fa-bounce text-3xl "></i></li>
-            </ul>
-          </div>  
+        <div class="border-2 border-gray-300 border-t-[#f5ecef] bg-[#EDEAF1]  shadow-2xl  py-2 rounded-lg">
+          <h3 class="text-2xl font-semibold text-gray-700 mb-2 flex  justify-center pb-5">Mis habilidades</h3>
+          <ul class="flex flex-wrap  gap-8 text-gray-600 justify-center">
+            <li><i class="fa-brands fa-html5 text-orange-500 text-3xl"></i> </li>
+            <li><i class="fa-brands fa-css3-alt text-blue-500 text-3xl"></i> </li>
+            <li><i class="fa-brands fa-js text-yellow-400 text-3xl"></i></li>
+            <li><i class="fa-brands fa-github text-gray-800 text-3xl"></i> </li>
+            <li><i class="fa-solid fa-microchip text-red-700 text-3xl"></i></li>
+            <li><i class="fa-brands fa-python text-blue-500  text-3xl "></i></li>
+          </ul>
+        </div>
       </div>
 
     </section>
@@ -98,95 +98,108 @@
       <div class="">
         <h2 class="text-4xl font-bold text-[#62162f] mb-4">Proyectos</h2>
         <div class="grid md:grid-cols-2 gap-8">
-          <!-- Proyecto 1 -->
+
           <div class="bg-white rounded-xl shadow-lg overflow-hidden relative">
-            <img src="web.png" alt="TaskFlow" class="w-full h-64 object-cover">
+            <a href="https://aulasvirtuales.frba.utn.edu.ar/course/view.php?id=29119#module-1678140">
+              <img src="assets/web.png" alt="" class="w-full h-64 object-cover">
+            </a>
             <div class="p-6">
-              <h3 class="text-xl font-semibold mb-2">TaskFlow</h3>
-              <p class="text-gray-600 text-sm">Task management system with drag-and-drop...</p>
-            </div>
-          </div>
-          <div class="bg-white rounded-xl shadow-lg overflow-hidden relative">
-            <img src="ecocart.png" alt="EcoCart" class="w-full h-64 object-cover">
-            <div class="p-6">
-              <h3 class="text-xl font-semibold mb-2">EcoCart</h3>
-              <p class="text-gray-600 text-sm">E-commerce platform promoting eco-friendly products...</p>
-            </div>
-          </div>
-          <div class="bg-white rounded-xl shadow-lg overflow-hidden relative">
-            <img src="ecocart.png" alt="EcoCart" class="w-full h-64 object-cover">
-            <div class="p-6">
-              <h3 class="text-xl font-semibold mb-2">EcoCart</h3>
-              <p class="text-gray-600 text-sm">E-commerce platform promoting eco-friendly products...</p>
+              <h3 class="text-xl font-semibold mb-2 ">Mi Web</h3>
+              <p class="text-gray-600 text-sm">Segunda pagina que realice con un css mas profundo</p>
             </div>
           </div>
 
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden relative">
+            <a href="https://aulasvirtuales.frba.utn.edu.ar/course/view.php?id=29119#module-1678140">
+              <img src="assets/web2.png" alt="" class="w-full h-64 object-cover">
+            </a>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2 ">We are creative </h3>
+              <p class="text-gray-600 text-sm">Primera pagina que hice con html y css</p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden relative">
+            <a href="https://aulasvirtuales.frba.utn.edu.ar/course/view.php?id=29119#module-1678140">
+              <img src="assets/web3.png" alt="" class="w-full h-64 object-cover">
+            </a>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2 ">API de Pokemon</h3>
+              <p class="text-gray-600 text-sm">Permite ver las caracteristicas de cada pokemon mediante una API</p>
+            </div>
+          </div>
 
         </div>
       </div>
 
     </section>
     </section>
+
     <section id="Experiencia"
       class="bg-[#f5ecef] py-20 flex flex-col md:flex-row items-center max-w-6xl mx-auto px-6 gap-10 pt-2">
       <div class="flex flex-col justify-center md:w-2/3">
         <h2 class="text-4xl font-bold text-[#62162f] mb-4">Experiencia</h2>
-        <p class="mb-4 text-gray-600 pb-5">Mi nombre es Thomas Agustin Cano ,tengo 20 años, soy de Cordoba, Argentina me
-          recibi en tecnico electronico,Actualmente me encuentro estudiando en la carrera de ingeniera en sistemas de
-          informacion.</p>
-          
-            <h3 class="text-2xl font-semibold text-gray-700 mb-2">Mis habilidades:</h3>
-            <ul class="flex flex-wrap gap-4 text-gray-600">
-              <li><i class="fa-brands fa-html5 text-orange-500 text-2xl"></i> HTML5</li>
-              <li><i class="fa-brands fa-css3-alt text-blue-500 text-2xl"></i> CSS3</li>
-              <li><i class="fa-brands fa-js text-yellow-400 text-2xl"></i> JavaScript</li>
-              <li><i class="fa-brands fa-github text-gray-800 text-2xl"></i> GitHub</li>
-              <li><i class="fa-solid fa-microchip text-red-700 text-2xl"></i>MikroC</li>
-              <li><i class="fa-brands fa-python text-blue-500 fa-bounce text-2xl "></i>Python</li>
-            </ul>
+        <p class="mb-4 text-gray-600 pb-5">Conocimientos en  la base de desarrollo web y en programacion orientada a objetos con proyectos academicos realizados con lenguaje de mikro c y arduino adquiridos en el colegio tecnico Luis Manuel Robles. Actualmente en Ingenieria en Sistemas de informacion y recibido en tecnico de electronica </p>
+       
+      </div>
+
+    </section>
+
+    <section id="Contacto" class="bg-[#f5ecef] py-20">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-[#62162f] mb-8 text-center">Contacto</h2>
+        <form action="#" class="bg-white p-8 rounded-xl shadow-xl space-y-6">
+          <div>
+            <label for="email" class="block text-gray-700 font-semibold mb-2">Correo electrónico</label>
+            <input type="email" id="email" placeholder="tuemail@ejemplo.com"
+              class="w-full border border-gray-300 rounded-lg px-4 py-2 ">
+          </div>
+
+          <div>
+            <label for="telefono" class="block text-gray-700 font-semibold mb-2">Teléfono</label>
+            <input type="tel" id="telefono" placeholder="+54 9 351 123 4567"
+              class="w-full border border-gray-300 rounded-lg px-4 py-2 ">
+          </div>
+
+          <div>
+            <label for="consulta" class="block text-gray-700 font-semibold mb-2">Consulta</label>
+            <textarea id="consulta" rows="5" placeholder="Escribe tu consulta aquí..."
+              class="w-full border border-gray-300 rounded-lg px-4 py-2 "></textarea>
+          </div>
+
+          <div class="text-center">
+            <button type="submit"
+              class="bg-[#62162f] text-white px-6 py-3 rounded-lg hover:bg-[#4a1023] transition-colors">Enviar
+              mensaje</button>
+          </div>
+        </form>
+        <div>
+          <ul class="flex flex-wrap  gap-8 text-gray-600 justify-center pt-8">
+            <a href="https://github.com/Thomicano">
+              <li><i class="fa-brands fa-github text-gray-800 text-3xl"></i> </li>
+            </a>
+            <a href="https://www.linkedin.com/in/thomas-cano-3aa149330/">
+              <li><i class="fa-brands fa-linkedin text-3xl text-blue-500"></i> </li>
+            </a>
+            <a href="https://www.instagram.com/thomiicano/">
+              <li><i class="fa-brands fa-instagram text-3xl text-pink-500"></i></li>
+            </a>
+            <a href="assets/C.V Thomas Agustin Cano.pdf" download
+              class="flex items-center gap-2 bg-[#62162f] text-white px-4 py-2 rounded-lg hover:bg-[#4a1023] transition-colors">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              Descargar CV
+            </a>
+
+          </ul>
+        </div>
       </div>
     </section>
-    <section id="Contacto" class="bg-[#f5ecef] py-20">
-  <div class="max-w-4xl mx-auto px-6">
-    <h2 class="text-4xl font-bold text-[#62162f] mb-8 text-center">Contacto</h2>
-    
-    <form action="#" class="bg-white p-8 rounded-xl shadow-xl space-y-6">
-      
-      <!-- Email -->
-      <div>
-        <label for="email" class="block text-gray-700 font-semibold mb-2">Correo electrónico</label>
-        <input type="email" id="email" placeholder="tuemail@ejemplo.com"
-               class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#62162f]">
-      </div>
-      
-      <!-- Teléfono -->
-      <div>
-        <label for="telefono" class="block text-gray-700 font-semibold mb-2">Teléfono</label>
-        <input type="tel" id="telefono" placeholder="+54 9 351 123 4567"
-               class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#62162f]">
-      </div>
-      
-      <!-- Consulta -->
-      <div>
-        <label for="consulta" class="block text-gray-700 font-semibold mb-2">Consulta</label>
-        <textarea id="consulta" rows="5" placeholder="Escribe tu mensaje aquí..."
-                  class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#62162f]"></textarea>
-      </div>
-      
-      <!-- Botón -->
-      <div class="text-center">
-        <button type="submit"
-                class="bg-[#62162f] text-white px-6 py-3 rounded-lg hover:bg-[#4a1023] transition-colors">
-          Enviar mensaje
-        </button>
-      </div>
-      
-    </form>
-  </div>
-</section>
 
   </main>
   <script src="main.js"></script>
 </body>
+<footer class="bg-[#62162f]  bottom-0 w-full p-[15px]">
+  <p class="text-xl text-white justify-center">© 2025 Mi portfolio . Todos los derechos reservados.</p>
+</footer>
 
 </html>
